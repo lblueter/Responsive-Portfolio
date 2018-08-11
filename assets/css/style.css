@@ -219,3 +219,43 @@ body {
     transform: rotate(90deg);
     margin-bottom: 20px;
   }
+
+  @media screen and (max-width: 980px) {
+    nav {
+      padding-right: 20px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    nav {
+      padding-right: 20px;
+    }
+    .auth-image, .work {
+      width: auto;
+      max-width: 100%;
+      max-width: 80%;
+      height: auto;
+      padding-top: 60px;
+      padding-bottom: 20px;
+      align-self: center;
+    }
+    .imagewrapper {
+      width: 400px;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    #masthead {
+      position: static;
+      width: 100%;
+      text-align: center;
+    }
+    #main-container {
+      padding: 10px;
+    }
+    #logo {
+      margin: auto;
+      width: 100%;
+    }
+    nav {
+      width: 100%;
+    }
+  }
